@@ -8,7 +8,7 @@ env:
   REGION: us-east4 # Cloud Run zone
   PROJECT_ID: pyc-embargos-test # GCP project
   BASE_IMAGE: gcr.io/pyc-embargos-test/nextjs-app # Container registry entry for the frontend app
-  SERVICE_NAME: nextjs-frontend # Cloud run service name
+  SERVICE_NAME: nextjs-app-2 # Cloud run service name
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called “test-build-deploy”
